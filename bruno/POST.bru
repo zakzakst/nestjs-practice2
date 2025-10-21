@@ -1,0 +1,23 @@
+meta {
+  name: POST
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3000/users
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name": "Tom",
+    "email": "tom@example.com"
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
