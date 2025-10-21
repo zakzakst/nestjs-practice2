@@ -1,0 +1,27 @@
+meta {
+  name: PATCH
+  type: http
+  seq: 4
+}
+
+patch {
+  url: http://localhost:3000/users/:id
+  body: json
+  auth: inherit
+}
+
+params:path {
+  id: 4
+}
+
+body:json {
+  {
+    "name": "Tom2",
+    "email": "tom2@example.com"
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
