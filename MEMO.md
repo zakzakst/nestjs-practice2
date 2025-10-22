@@ -1,1 +1,2 @@
-https://qiita.com/A-Kira/items/3d17396c7cc98873e29d
+- https://qiita.com/A-Kira/items/3d17396c7cc98873e29d
+- https://docs.astro.build/ja/getting-started/
